@@ -2,3 +2,30 @@
     font-family: Domaine Display;
     src: url('file:assets/css/fonts/DomaineDisp-Semibold.otf') format('opentype');
 }
+/*text styles*/
+html {font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {font-size: 3rem;}
+h2 {font-size:2rem;}
+h3 {font-size:1.5rem;}
+h4 {font-size: 1rem;
+    font-weight: normal;}
+h5 {font-size:0.875rem;}
+h6 {font-size:0.75rem;}
+
+/*containers*/
+div {
+    width: 600px;
+    margin: auto;
+}
+
+p {
+    width: 600px;
+    margin: auto;
+}
