@@ -1,4 +1,4 @@
 @font-face {
     font-family: Domaine Display;
-    src: url(DomaineDisp-Semibold.otf);
+    src: url('file:assets/css/fonts/DomaineDisp-Semibold.otf') format('opentype');
 }
