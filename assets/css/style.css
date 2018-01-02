@@ -24,7 +24,7 @@ h6 {font-size:0.875rem;}
 
 /* unvisited & unvisited*/
 a:link, a:visited {
-    color: black;
+    color: #282C36;
 }
 
 /* mouse over link */
@@ -59,6 +59,7 @@ a:active {
   margin-top: 32px;
   margin-bottom: 32px;
   font-family: 'Fira Sans';
+  color: #282C36;
   font-size: 1.25rem;
   line-height: 1.5;
 }
