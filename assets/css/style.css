@@ -40,11 +40,14 @@ a:active {
 
 
 /*containers*/
-.header{
-	padding-top: 3em;
-  width: 650px;
-	height: 100%;
+div{
+  padding-top: 3em;
+  max-width: 650px;
+  height: 100%;
   margin: auto;
+  }
+
+.header{
   margin-top: 32px;
   margin-bottom: 32px;
   font-size: 3rem;
@@ -52,10 +55,7 @@ a:active {
   color: #ef6145;
 }
 
-.m0{
-	width: 650px;
-	height: 100%;
-  margin: auto;
+.body{
   margin-top: 32px;
   margin-bottom: 32px;
   font-family: 'Fira Sans';
