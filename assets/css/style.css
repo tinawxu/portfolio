@@ -42,15 +42,24 @@ a:active {
 /*containers*/
 div{
   padding-top: 3em;
-  max-width: 650px;
+  max-width: 800px;
   height: 100%;
   margin: auto;
   }
 
-.header{
+.label{
   margin-top: 32px;
-  margin-bottom: 32px;
-  font-size: 4rem;
+  -webkit-margin-after:0;
+  font-size: 1.5rem;
+  font-family: 'Lato';
+  line-height: 1.5;
+  color: #778899;
+  }
+
+.header{
+  -webkit-margin-before:0.25em;
+  margin-bottom: 48px;
+  font-size: 3.5rem;
   font-family: 'Abril Fatface';
   color: #ef6145;
 }
