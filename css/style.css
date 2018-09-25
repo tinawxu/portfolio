@@ -54,11 +54,6 @@ body{
   opacity: 0;
 }
 
-.selected{
-  color: #ef6145;
-  font-weight: bold;
-}
-
 .b {
   font-weight: bold;
 }
@@ -94,8 +89,8 @@ body{
   background-color: #ffea15;
 }
 /*links*/
-
 /* unvisited & visited*/
+
 a:link, a:visited {
     color: #282C36;
 }
@@ -116,7 +111,13 @@ a.nav-link {
   color: #778899;
   font-size: 1.25rem;
   line-height: 1.5;
-  text-decoration: none;}
+  text-decoration: none;
+}
+
+a.nav-link.selected {
+  color: #ef6145;
+  font-weight: bold;
+}
 
 a.nav-link:hover {
   padding: 16px;
@@ -128,13 +129,18 @@ a.nav-link:hover {
   line-height: 1.5;
   text-decoration: none;}
 
-.link{
+
+a.social-link{
   margin-right: 32px;
   font-family: 'europa';
   color: #93959A;
   font-size: 1rem;
   line-height: 1.5;
   text-decoration: none;
+}
+
+a.social-link:hover{
+  color: #ef6145;
 }
 
 /*nav */
@@ -163,6 +169,10 @@ div{
   max-width: 800px;
   height: 100%;
   margin: auto;
+  }
+
+.social{
+    display:inline-block;
   }
 
 
