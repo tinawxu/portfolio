@@ -78,20 +78,16 @@ body{
   transition: color .15s ease-out;
 }
 
-.slate-80 {
-  color: rgba(40,44,54,0.8);
-}
-
-.slate-60 {
+.grey-dark {
   color: rgba(40,44,54,0.6);
 }
 
-.slate-40 {
+.grey-med {
   color: rgba(40,44,54,0.4);
 }
 
-.slate-20 {
-  color: rgba(40,44,54,0.2);
+.grey-light {
+  color: rgba(153,153,153,1);
 }
 
 .bg-yellow {
@@ -153,9 +149,13 @@ a.nav-link:hover {
 
 ul{
   overflow:hidden;
-  list-style: none;}
+  list-style: none;
+  padding-inline-start: 0px;}
 
 li{
+    float:left;}
+
+li.nav{
   float:right;}
 
 /*containers*/
