@@ -1,28 +1,105 @@
 /*text styles*/
-html {font-size: 16px;
-}
-
-h1, h2, h3, h4, h5, h6 {
+body{
+  font-size: 16px;
   line-height: 1.5;
-  margin: 0;
+  margin: 0;}
+
+.label{
+  -webkit-margin-after:0;
+  font-size: 1.5rem;
+  font-family: 'europa';
+  color: #778899;
+  }
+
+.header{
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  font-size: 3.5rem;
+  font-family: 'Abril Fatface';}
+
+.subhead{
+  -webkit-margin-before:0;
+  -webkit-margin-after:0;
+  font-size: 1.5rem;
+  font-family: 'europa';
+  font-weight: bold;
+  color: rgba(40,44,54,0.4);
 }
 
-h1 {font-size: 3rem;
-    font-family: 'Abril Fatface';
-    color: #ef6145;
-   }
-h2 {font-size:2rem;}
-h3 {font-size:1.5rem;
-    font-weight: normal;}
-h4 {font-size: 1.25rem;
-    font-weight: normal;}
-h5 {font-size:1rem;
-    font-weight: normal;}
-h6 {font-size:0.875rem;}
+.body{
+  -webkit-margin-before:0.0;
+  -webkit-margin-after:0.5;
+  font-family: 'europa';
+  font-size: 1.25rem;
+  color: #282C36;
+}
 
-/*links/
+.entryheader{
+  -webkit-margin-before:0.0;
+  -webkit-margin-after:0.5;
+  font-family: 'europa';
+  font-size: 1rem;
+  color: rgba(40,44,54,0.6);
+}
 
-/* unvisited & unvisited*/
+.entry{
+  -webkit-margin-before:0.0;
+  -webkit-margin-after:0.5;
+  font-family: 'europa';
+  font-size: 1rem;
+  color: #282C36;
+}
+
+.secret{
+  opacity: 0;
+}
+
+.selected{
+  color: #ef6145;
+  font-weight: bold;
+}
+
+.b {
+  font-weight: bold;
+}
+/*color*/
+.pink,
+.hover-pink:hover {
+  color: #ef6145;
+  transition: color .15s ease-out;
+}
+.blue {
+  color: #c7d8f3;
+}
+
+.slate,
+.hover-slate:hover {
+  color: #282C36;
+  transition: color .15s ease-out;
+}
+
+.slate-80 {
+  color: rgba(40,44,54,0.8);
+}
+
+.slate-60 {
+  color: rgba(40,44,54,0.6);
+}
+
+.slate-40 {
+  color: rgba(40,44,54,0.4);
+}
+
+.slate-20 {
+  color: rgba(40,44,54,0.2);
+}
+
+.bg-yellow {
+  background-color: #ffea15;
+}
+/*links*/
+
+/* unvisited & visited*/
 a:link, a:visited {
     color: #282C36;
 }
@@ -37,7 +114,49 @@ a:hover {
 a:active {
     color: #ef6145;
 }
+a.nav-link {
+  padding: 16px;
+  font-family: 'europa';
+  color: #778899;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-decoration: none;}
 
+a.nav-link:hover {
+  padding: 16px;
+  font-family: 'europa';
+  font-weight: bold;
+  color: #ffffff;
+  background-color:#ef6145;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-decoration: none;}
+
+.link{
+  margin-right: 32px;
+  font-family: 'europa';
+  color: #93959A;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+/*nav */
+.main-nav {
+  position:fixed;
+  top: 0;
+  right: 0;
+  max-width: 800px;
+  text-align: right;
+  padding-top: 32px;
+}
+
+ul{
+  overflow:hidden;
+  list-style: none;}
+
+li{
+  float:right;}
 
 /*containers*/
 div{
@@ -46,90 +165,6 @@ div{
   margin: auto;
   }
 
-nav {
-  top: 0;
-  right: 0;
-  max-width: 800px;
-  text-align: right;
-  padding-top: 32px; }
-
-.nav-links {
-  padding: 16px;
-  font-family: 'Lato';
-  color: #93959A;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  text-decoration: none;}
-
-/*type styles*/
-.label{
-  -webkit-margin-after:0;
-  font-size: 1.5rem;
-  font-family: 'Lato';
-  line-height: 1.5;
-  color: #778899;
-  }
-
-.header{
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  font-size: 3.5rem;
-  font-family: 'Abril Fatface';
-  color: #ef6145;
-}
-
-.subhead{
-  -webkit-margin-before:0;
-  -webkit-margin-after:0;
-  font-size: 1.5rem;
-  font-family: 'Lato';
-  font-weight: bold;
-  color: rgba(40,44,54,0.4);
-}
-
-.body{
-  -webkit-margin-before:0.0;
-  -webkit-margin-after:0.5;
-  font-family: 'Fira Sans';
-  font-size: 1.25rem;
-  color: #282C36;
-  line-height: 1.5;
-}
-
-.entryheader{
-  -webkit-margin-before:0.0;
-  -webkit-margin-after:0.5;
-  font-family: 'Fira Sans';
-  font-size: 1rem;
-  color: rgba(40,44,54,0.6);
-  line-height: 1.5;
-}
-
-.entry{
-  -webkit-margin-before:0.0;
-  -webkit-margin-after:0.5;
-  font-family: 'Fira Sans';
-  font-size: 1rem;
-  color: #282C36;
-  line-height: 1.5;
-}
-
-.link{
-  margin-right: 32px;
-  font-family: 'Fira Sans';
-  color: #93959A;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-decoration: none;
-}
-
-.secret{
-  opacity: 0;
-}
-
-.b {
-  font-weight: bold;
-}
 
 /*margins*/
 .m0  { margin:        0 }
