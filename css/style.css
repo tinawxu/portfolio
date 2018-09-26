@@ -130,7 +130,7 @@ a.nav-link:hover {
   text-decoration: none;}
 
 
-a.social-link{
+a.social-link, .footer{
   margin-right: 32px;
   font-family: 'europa';
   color: #93959A;
