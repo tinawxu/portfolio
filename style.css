@@ -29,7 +29,7 @@ body{
   -webkit-margin-before:0.0;
   -webkit-margin-after:0.5;
   font-size: 1.25rem;
-  color: #282C36;
+  color: rgba(40,44,54,0.85);
 }
 
 .project-header{
@@ -38,6 +38,12 @@ body{
   font-size: 1.5rem;
   font-weight:bold;
   color: #778899;
+}
+
+.project-desc{
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  color: rgba(40,44,54,0.85);
 }
 
 .entryheader{
@@ -53,7 +59,7 @@ body{
   -webkit-margin-after:0.5;
   font-family: 'europa';
   font-size: 1rem;
-  color: #282C36;
+  color: rgba(40,44,54,0.85);
 }
 
 .secret{
@@ -104,7 +110,7 @@ body{
 /* unvisited & visited*/
 
 a:link, a:visited {
-    color: #282C36;}
+    color: rgba(40,44,54,0.85);}
 
 a:hover {
     color: #ef6145;
@@ -164,7 +170,6 @@ li.nav{
 /*containers*/
 div{
   max-width: 800px;
-  height: 100%;
   margin: auto;
   }
 
@@ -173,19 +178,22 @@ div{
   }
 
 .project{
-
+  position:relative;
+  top: 0px;
 }
 
 .project-image{
   display: inline-block;
-  max-width: 300px;
-  border-radius: 40px;
-  margin-right: 30px;;
+  max-width: 250px;
+  border-radius: 4px;
+  margin-right: 32px;
 
 }
 
 .project-text{
   display: inline-block;
+  position:absolute;
+  top: 0px;
   max-width: 450px;
 }
 
